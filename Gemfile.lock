@@ -1,4 +1,11 @@
 GIT
+  remote: git@github.com:rspec/rspec-core.git
+  revision: 3a83a89bced9131f405212cce6022fc2e2bf0628
+  ref: 3a83a89bced9131f405212cce6022fc2e2bf0628
+  specs:
+    rspec-core (2.13.0)
+
+GIT
   remote: git@github.com:rspec/rspec-mocks.git
   revision: 131099cfc17250a3f365806d7d4c01e1ce329690
   ref: 131099cfc17250a3f365806d7d4c01e1ce329690
@@ -27,11 +34,6 @@ PATH
       jquery-rails
       rails (>= 3.1)
       sass-rails (>= 3.1)
-
-PATH
-  remote: ~/code/rspec-core
-  specs:
-    rspec-core (2.13.1)
 
 GEM
   remote: http://rubygems.org/
