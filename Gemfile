@@ -27,8 +27,11 @@ gem "pg"
 gem "ice_cube"
 
 group :test do
-  gem "rspec-rails", "2.14.0.rc1"
-  gem "rspec", "2.14.0.rc1"
+  #gem "rspec-rails", "2.14.0.rc1"
+  #gem "rspec", "2.14.0.rc1"
+  gem "rspec-rails", git: "git@github.com:rspec/rspec-rails.git", ref: "4ef19b7bfe32db193fb48fb2790f3cfb2bfb2f60"
+  gem "rspec-core", path: "~/code/rspec-core"
+  gem "rspec-mocks", git: "git@github.com:rspec/rspec-mocks.git", ref: "131099cfc17250a3f365806d7d4c01e1ce329690"
   gem "spork", "~> 0.9.2"
   gem "guard"
   gem "guard-spork"
